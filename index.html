@@ -6,6 +6,7 @@
     <title>ATG World</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 <body>
     <nav class="navbar">
@@ -44,6 +45,13 @@
                 </defs>
               </svg>
         </div>
+
+        <!-- FOR MOBILE -->
+        <div class="logo" id="mob-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M20 11H7.83L13.42 5.41L12 4L4 12L12 20L13.41 18.59L7.83 13H20V11Z" fill="white"/>
+          </svg>
+        </div>
         <div class ="nav-search-box">
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                 <g clip-path="url(#clip0_1_817)">
@@ -78,6 +86,13 @@
               </div>
             </div>
         </div>
+        <div class="mob-btn-cont">
+          <button class="join-group">
+            Join Group
+          </button>
+        </div>
+
+
 
         <div id="signInModal" class="modal">
           <div class="modal-content">
@@ -117,7 +132,9 @@
                     <input class="grid-item password" placeholder="Password"></input>
                   </div>
                   <button class="auth-btn-modal">
-                    Sign In
+                    <a href="/loggedIn.html">
+                      Sign In
+                    </a>
                   </button>
 
                   <div class="auth-various-source">
@@ -205,7 +222,9 @@
                     <input class="grid-item password" placeholder="Confirm Password"></input>
                   </div>
                   <button class="auth-btn-modal">
-                    Create Account
+                    <a href="/loggedIn.html">
+                      Create Account
+                    </a>
                   </button>
 
                   <div class="auth-various-source">
@@ -293,6 +312,22 @@
                     Join Group
                 </button>
             </div>
+        </div>
+
+        <!-- FOR MOBILE -->
+        <div class="status-bar-2">
+          <div class="status-item1">
+            Posts(368)
+          </div>
+          <button>
+            Filter: All <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M5.83325 8.33337L9.99992 12.5L14.1666 8.33337H5.83325Z" fill="#212529"/>
+              </svg>
+
+
+            </span>
+          </button>
         </div>
         
         <div class="article-section">
@@ -487,7 +522,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="article-footer">
+                <div class="article-footer" id="diff">
                   <div class="article-footer-container">
 
                     <div class="article-profile">

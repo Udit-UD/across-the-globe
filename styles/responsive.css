@@ -1,0 +1,257 @@
+@media (max-width: 1180px){
+    .date-container{
+        width: 75%;
+    }
+}
+
+@media (max-width: 1100px){
+    .hero-text{
+        left: 140px;
+        bottom: 77px;
+    }
+    .main-body{
+        padding: 0px 12%;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    /* navbar */
+    .logo{
+        margin-left: 50px;
+    }
+    .nav-auth-section{
+        margin-right: 50px;
+    }
+    .nav-search-box{
+        width: 18rem;
+    }
+
+    /* Herosection */
+    .hero-text{
+        left: 100px;
+        bottom: 77px;
+    }
+
+    /* MainBody */
+    .main-body{
+        padding: 0px 10%;
+    }
+
+    .article-right-div{
+        width: 220px;
+    }
+
+    .article-footer{
+        padding: 18px 20px;
+        width: 93%;
+    }
+
+
+
+}
+
+@media(max-width: 950px){
+    .article-tag{
+        font-size: 18px;
+    }
+    .article-title>h3{
+        font-size: 19px;
+    }
+    .article-description{
+        font-size: 17px;
+    }
+    
+
+}
+
+
+@media (max-width: 850px){
+
+    /* NAVBAR */
+    .nav-auth-section{
+        margin-right: 50px;
+    }
+    .nav-search-box{
+        width: 15rem;
+    }
+    .auth-first, .auth-second{
+        font-size: 14px;
+    }
+    
+    /* Herosection */
+    .hero-text{
+        left: 75px;
+        bottom: 67px;
+    }
+    /* MainBody */
+    .main-body{
+        padding: 0px 8%;
+    }
+
+    /* Status bAr */
+    .items>p{
+        font-size: 15px;
+    }
+    .write-post, .join-btn{
+        font-size: 13px;
+
+    }
+
+
+    .article-right-div{
+        width: 180px;
+    }
+
+    .right-box-2{
+        margin-top: 20px;
+    }
+
+    .date-container{
+        width: 85%;
+    }
+}
+
+@media (max-width: 750px){
+    .hero-section{
+        margin-bottom: 22px;
+    }
+    .nav-search-box{
+        display: none;
+    }
+    .auth-first, .auth-second{
+        font-size: 17px;
+    }
+    .write-post, .join-btn{
+        padding: 6px 8px;
+    }
+    .article-tag{
+    font-size: 17px;
+    }
+    .article-title>h3{
+        font-size: 18px;
+    }
+    .article-description{
+        font-size: 16px;
+    }
+    .date-container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 680px){
+    .hero-section{
+        height: 320px;
+    }
+    .hero-text{
+        left: 60px;
+        bottom: 50px;
+    }
+
+    /* Status Bar */
+    .write-post, .join-btn{
+        display: none;
+    }
+    .status-left-box{
+        width: 100%;
+    }
+    .items{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .items>p{
+        font-size: 17px;
+    }
+
+    .article-right-div{
+        display: none;
+    }
+    .article-left-div{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 600px){
+    .article-title>h3{
+        font-size: 17px;
+    }
+    .article-description{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px){
+    .navbar{
+        position: absolute;
+        z-index: 2;
+        background-color: transparent;
+    }
+    .auth-first{
+        color: white;
+    }
+    .hero-text{
+        left: 45px;
+        bottom: 50px;
+    }
+}
+
+
+@media(max-width: 450px){
+    .hero-text{
+        left: 16px;
+        bottom: 32px;
+    }
+    .hero-section{
+        height: 236px;
+    }
+    .article-item{
+        height: auto;
+        padding-top: 11px;
+    }
+    .thumbnail-container{
+        height: 120px;
+    }
+    .article-tag{
+        font-size: 14px;
+    }
+    .article-title>h3{
+        font-size: 16px;
+    }
+    .article-description{
+        font-size: 14px;
+    }
+
+    .hero-section{
+        margin-bottom: 0px;
+    }
+    .status-bar{
+        display: none;
+    }
+    .status-bar-2{
+        display: flex;
+    }
+    .main-body{
+        padding: 0px;
+    }
+
+    .article-footer{
+        position: relative;
+    }
+    .logo, .nav-auth-section{
+        display: none;
+    }
+    .mob-btn-cont{
+        display: block;
+        margin-right: 12px;
+    }
+    #mob-logo, .join-group{
+        display: block;
+        margin-left: 16px;
+    }
+    .nav-auth-section{
+        padding-right: 18px;
+    }
+}
