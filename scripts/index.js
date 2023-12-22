@@ -36,3 +36,49 @@ document.addEventListener('click', function() {
         button.textContent("Follow");
     });
 });
+
+
+
+// modal
+var signUpModal = document.getElementById('signUpModal');
+var signInModal = document.getElementById('signInModal');
+var openSignUpModal = document.getElementById('openSignUpModal');
+var openSignInModal = document.getElementById('openSignInModal');
+var closeSignInBtn = document.getElementById('closeSignInBtn');
+var closeSignUpBtn = document.getElementById('closeSignUpBtn');
+
+// Check if elements exist before attaching event handlers
+if (openSignUpModal && signUpModal) {
+    openSignUpModal.addEventListener('click', function () {
+        signUpModal.style.display = 'block';
+        console.log("signup");
+    });
+}
+
+if (openSignInModal && signInModal) {
+    openSignInModal.addEventListener('click', function () {
+        signInModal.style.display = 'block';
+    });
+}
+
+if (closeSignInBtn && signInModal) {
+    closeSignInBtn.addEventListener('click', function () {
+        signInModal.style.display = 'none';
+    });
+}
+
+if (closeSignUpBtn && signUpModal) {
+    closeSignUpBtn.addEventListener('click', function () {
+        signUpModal.style.display = 'none';
+        console.log("clicked!");
+    });
+}
+
+window.addEventListener('click', function (event) {
+    if (event.target === signUpModal) {
+        signUpModal.style.display = 'none';
+    }
+    if (event.target === signInModal) {
+        signInModal.style.display = 'none';
+    }
+});
