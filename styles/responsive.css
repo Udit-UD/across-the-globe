@@ -189,8 +189,24 @@
         z-index: 2;
         background-color: transparent;
     }
-    .auth-first{
+
+    /* .auth-first{
         color: white;
+    } */
+
+    .logo, .nav-auth-section{
+        display: none;
+    }
+    .mob-btn-cont{
+        display: block  ;
+        margin-right: 12px;
+    }
+    #mob-logo, .join-group{
+        display: block;
+        margin-left: 16px;
+    }
+    .nav-auth-section{
+        padding-right: 18px;
     }
     .hero-text{
         left: 45px;
@@ -244,7 +260,7 @@
         display: none;
     }
     .mob-btn-cont{
-        display: block;
+        display: block  ;
         margin-right: 12px;
     }
     #mob-logo, .join-group{
